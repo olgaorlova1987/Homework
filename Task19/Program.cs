@@ -20,15 +20,20 @@ int number1= number%10000;
 int number2 = (number - (number1*10000))%1000;
 int number3 = (number - (number1*10000) - (number2*1000)) %100;
 int number4 = (number - (number1*10000) - (number2*1000)- (number3* 100)) %10;
-int number5 = ((number - (number1*10000) - (number2*1000)- (number3* 100))- (number4* 10))%1;
+int number5 = (number - (number1*10000) - (number2*1000)- (number3* 100)- (number4* 10));
 
-int newnumber = (number5*10000)+ (number4*1000) + (number3*100)+ (number4*10)+(number5*1);
-Console.WriteLine(number1); 
-Console.WriteLine(newnumber); 
-if (number == newnumber)
+int newnumber1 = number5*10000;
+int newnumber2 = number4*1000;
+int newnumber3 = number3*100;
+int newnumber4 = number2*10;
+int newnumber5 = number1;
+
+int newnumber = (newnumber5*10000)+(newnumber4*1000)+(newnumber3 *100)+(newnumber2*10)+newnumber1;
+Console.WriteLine ($" Новое число: {newnumber}");
+if (number1==number5 && number2== newnumber4)
 {
-   Console.WriteLine("Это число палиндром"); 
-}   
+    Console.WriteLine("Это число палиндром");
+}
 else
 {
     Console.WriteLine ("Это число не палиндром");
