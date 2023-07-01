@@ -4,26 +4,22 @@
 // 2, 4 -> 16
 
 Console.WriteLine("Введите число");
-double a = Convert.ToInt32(Console.ReadLine());
+int valueA = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите степень");
-double b = Convert.ToInt32(Console.ReadLine());
-double newnumber= Convert.ToInt32(Console.ReadLine());
+int valueB = Convert.ToInt32(Console.ReadLine());
 
-for (int i=1, i++)
+int degree(int a, int b)
 {
-    if (i<b)
-    {
-        newnumber = a*a;
-    }
-    else
-    {
-        break;
-    }
+int result = 1;
+for(int i=0; i<= b-1; i++)
+{
+    result = result*a;
 }
-   
-Console.WriteLine($"Число в степени :{newnumber}");
+return result;
+}
 
+Console.WriteLine ($"Результат возведения в степень числа {valueA} в степень {valueB} составит: {degree (valueA, valueB)}");
 
  
 
