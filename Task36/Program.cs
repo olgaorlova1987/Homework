@@ -12,7 +12,7 @@ for (int i = 0; i < a; i++)
     randomArray[i] = new Random().Next(-100, 100);
     Console.WriteLine(randomArray[i] + "");
 }
-int kol(int[] randonArray)
+int kol(int[] randomArray)
 {
     int sum = 0;
     int j = 0;
