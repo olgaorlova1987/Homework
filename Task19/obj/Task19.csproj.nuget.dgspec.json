@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olgao\\Desktop\\Homework\\Task19\\Task19.csproj": {}
+    "C:\\Users\\olgao\\Desktop\\Gik Brein\\Homework\\Task19\\Task19.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olgao\\Desktop\\Homework\\Task19\\Task19.csproj": {
+    "C:\\Users\\olgao\\Desktop\\Gik Brein\\Homework\\Task19\\Task19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olgao\\Desktop\\Homework\\Task19\\Task19.csproj",
+        "projectUniqueName": "C:\\Users\\olgao\\Desktop\\Gik Brein\\Homework\\Task19\\Task19.csproj",
         "projectName": "Task19",
-        "projectPath": "C:\\Users\\olgao\\Desktop\\Homework\\Task19\\Task19.csproj",
+        "projectPath": "C:\\Users\\olgao\\Desktop\\Gik Brein\\Homework\\Task19\\Task19.csproj",
         "packagesPath": "C:\\Users\\olgao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olgao\\Desktop\\Homework\\Task19\\obj\\",
+        "outputPath": "C:\\Users\\olgao\\Desktop\\Gik Brein\\Homework\\Task19\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olgao\\AppData\\Roaming\\NuGet\\NuGet.Config"
