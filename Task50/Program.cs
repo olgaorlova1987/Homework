@@ -46,17 +46,11 @@ int numberRows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите номер столбца: ");
 int numberColumns = Convert.ToInt32(Console.ReadLine());
 
-if (numberRows < 1 || numberColumns < 1)
+if (numberRows < 1 || numberColumns <1 || numberRows> ROWS|| numberColumns> COLUMNS)
 {
-    Console.WriteLine("Номер строки не может быть отрицательным");
+    Console.WriteLine("Такого числа нет");
 }
 else if (numberRows <= ROWS + 1 && numberColumns <= COLUMNS + 1)
 {
     Console.WriteLine($"Значение элемента равно {myMatrix[numberRows - 1, numberColumns - 1]}");
 }
-
-else 
-{
-    Console.WriteLine("Такого элемента нет");
-}
-

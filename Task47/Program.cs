@@ -9,32 +9,27 @@
 const int ROWS = 3;
 const int COLUMNS = 4;
 
-double[,] GetRandomMatrix(int rows, int columns)
-{
-    double[,] matrix = new double[rows, columns];
-    for(int i = 0; i < matrix.GetLength(0); i++)
+double[,] randomArray = new double[ROWS, COLUMNS];
+
+Random rand = new Random();
+    for (int i = 0; i < ROWS; i++)
     {
-        for(int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < COLUMNS; j++)
         {
-            matrix[i, j] = Random.Shared.Next(-100, 100000);
+            randomArray[i, j] = rand.NextDouble();
         }
     }
 
-    return matrix;
-}
-
-void PrintMatrix(double[,] matrix)
+void PrintMatrix(double[,] randomArray)
 {
-    for(int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < randomArray.GetLength(0); i++)
     {
-        for(int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < randomArray.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j]}\t");
+            Console.Write($"{randomArray[i, j]}\t");
         }
         Console.WriteLine();
     }
 }
 
-double[,] myMatrix = GetRandomMatrix(ROWS, COLUMNS); 
-PrintMatrix(myMatrix);
-
+PrintMatrix(randomArray);

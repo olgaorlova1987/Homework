@@ -11,8 +11,7 @@ for (int i = 0; i < a; i++)
     randomArray[i] = new Random().NextDouble();
     Console.WriteLine(randomArray[i]);
 }
-double raz(double[] randomArray)
-{
+
     double min = randomArray[0];
     double max = randomArray[0];
     for (int i = 1; i < randomArray.Length; i++)
