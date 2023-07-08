@@ -1,0 +1,15 @@
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\bin\Debug\net7.0\Task47.exe
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\bin\Debug\net7.0\Task47.deps.json
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\bin\Debug\net7.0\Task47.runtimeconfig.json
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\bin\Debug\net7.0\Task47.dll
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\bin\Debug\net7.0\Task47.pdb
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.csproj.AssemblyReference.cache
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.AssemblyInfoInputs.cache
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.AssemblyInfo.cs
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.csproj.CoreCompileInputs.cache
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.dll
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\refint\Task47.dll
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.pdb
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\Task47.genruntimeconfig.cache
+C:\Users\olgao\Desktop\Gik Breins\Homework\Task47\obj\Debug\net7.0\ref\Task47.dll
